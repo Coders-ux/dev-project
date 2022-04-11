@@ -47,12 +47,13 @@ aside {
 
 .gif img {
     border: solid black;
-    border-radius: 20px;
-    width: 900px;
+    border-radius: 2px;
+    width: 800px;
+    height: 800px;
 }
 
 section {
-    flex: 70%;
+    flex: 60%;
     background-color: aliceblue;
     padding: 20px;
 }
@@ -63,4 +64,20 @@ footer {
     text-align: center;
     background-color: aliceblue;
     text-shadow: #121213 20px;
+}
+
+
+/* Class with Js */
+
+.error {
+    border: 2px solid #AD3131;
+}
+
+.success {
+    border: 2px solid #85CB64;
+}
+
+.error-envio {
+    color: #AD3131;
+    font-size: 15px;
 }
