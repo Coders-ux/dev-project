@@ -1,0 +1,47 @@
+/* MediaQuery */
+
+@media only screen and (min-width: 360px) and (max-width: 992px) {
+    body {
+        overflow-x: hidden;
+    }
+    .topnav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topnav a {
+        display: flex;
+        padding: 14px 25px;
+    }
+    .row {
+        display: flex;
+        flex-flow: column wrap;
+        align-content: stretch;
+        overflow: hidden;
+    }
+    .gif {
+        display: flex;
+        width: 100%;
+    }
+    .gif img {
+        display: flex;
+        width: 100%;
+    }
+    section {
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+    }
+    section p {
+        display: flex;
+        align-self: center;
+        width: 90%;
+    }
+    footer {
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+        padding: 50px;
+        overflow: hidden;
+    }
+}
